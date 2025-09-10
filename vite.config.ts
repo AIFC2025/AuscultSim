@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     outDir: "dist/spa",
   },
   plugins: [react(), expressPlugin()],
-  base: '/vite-react/',
+  base: "/AuscultSim",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
